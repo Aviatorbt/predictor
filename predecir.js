@@ -32,7 +32,7 @@ function predecir() {
     canPredict = false;
     setTimeout(function() {
       canPredict = true;
-    }, 20000);
+    }, 120000);
     document.getElementById("predictionResult").innerHTML = "";
     var num = (Math.floor(Math.random() * 80) + 160) / 85;
     setTimeout(function() {
