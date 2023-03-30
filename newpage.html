@@ -8,7 +8,7 @@
 	<style>
 	</style>
 </head>
-<body>
+<body style="overflow-x: hidden;">
 	<header>
 		<nav>
 			<ul>
@@ -16,20 +16,29 @@
 		</nav>
 	</header>
 	<section>
-		<h1 style="text-align:center;">AVIATOR PREDICTOR PREMIUM</h1>
-		<h6 style="text-align:center;">Selecciona tu casa de APUESTAS</h6>
+		<h1>Elige tu casa de apuesta</h1>
 		<div class="iconos">
+			<div id="cronometro">
+				<div id="reloj">
+					Proxima Prediccion...
+				</div>
+				<form name="cron" action="#">
+				</form>
+			</div>	
 			<a href="#" onclick="seleccionarIcono('1win.png')"><img src="1win.png"></a>
 			<a href="#" onclick="seleccionarIcono('betplay.png')"><img src="betplay.png"></a>
 			<a href="#" onclick="seleccionarIcono('codere.png')"><img src="codere.jpeg"></a>
 			<a href="#" onclick="seleccionarIcono('pinup.png')"><img src="pinup.png"></a>
 			<a href="#" onclick="seleccionarIcono('(betano.webp)')"><img src="betano.webp"></a>
 			<a href="#" onclick="seleccionarIcono('betsson.png')"><img src="betsson.png"></a>
-		  </div>				
+			<a href="#" onclick="seleccionarIcono('1xbet.webp')"><img src="1xbet.webp"></a>
+		</div>				
 		<button onclick="predecir()" class="boton-principal" style="display:block; margin: 0 auto;">PREDECIR</button>
 		<p id="predictionResult" style="text-align:center; font-size:4rem; margin-top: 10rem;"></p>
 		<p id="cuotaRetirarMensaje" style="text-align:center; font-size:2rem;"></p>
-<p id="cuotaRetirar" style="text-align:center; font-size:4rem;"></p>
+		<p id="cuotaRetirar" style="text-align:center; font-size:4rem;"></p>
 	</section>
 	<footer>
 	</footer>
+</body>
+</html>
