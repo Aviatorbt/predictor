@@ -78,11 +78,11 @@ document.head.appendChild(estiloAlerta);
     contenidoAlerta.classList.add("contenido-alerta");
     contenidoAlerta.innerHTML = `
       <div class="titulo-alerta">
-        <p>¡Atencion!</p>
+        <p>Atencion</p>
       </div>
       <div class="mensaje-alerta">
         <p>${mensaje}</p>
-        <p>¡Ahora puedes hacer tu prediccion!</p>
+        <p></p>
       </div>
       <button onclick="cerrarAlerta()" class="cerrar-alerta">X</padding-bottom>
 `;
